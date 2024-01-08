@@ -1,0 +1,129 @@
+* {
+    /* border: 1px solid lightgreen; */
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.home {
+    position: relative;
+    background-color: black;
+    height: 100%;
+}
+
+video {
+    width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - 100px);
+    padding: 10px 50px;
+}
+
+.header {
+    display: flex;
+}
+
+.logo {
+    margin-right: 40px;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 36px;
+    color: red;
+}
+
+.menu {
+    display: flex;
+    margin-left: auto;
+    color: white;
+    line-height: 36px;
+}
+
+.menu-item {
+    padding: 0 10px;
+}
+
+.menu-item>i {
+    line-height: 36px;
+}
+
+.banner {
+    color: white;
+    padding: 50px 0;
+}
+
+.title {
+    font-size: 72px;
+}
+
+.badge {
+    font-size: 18px;
+    font-weight: 900;
+    padding: 15px 0;
+}
+
+.description {
+    font-size: 1.2vw;
+    font-weight: 400;
+    line-height: normal;
+    text-shadow: 2px 2px 4px rgba(000, 000, 000, .45);
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    padding: 20px 0;
+}
+
+.white-button {
+    color: black;
+    background-color: white;
+    padding: 10px 25px;
+    border-radius: 4px;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+.gray-button {
+    color: white;
+    background-color: rgba(170, 170, 170, .4);
+    padding: 10px 25px;
+    border-radius: 4px;
+    font-weight: 900;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: 900;
+    font-style: bold;
+    color: white;
+    padding: 15px 0;
+    margin-left: 50px;
+}
+.list {
+    margin-left: 50px;
+    display: flex;
+    overflow-x: hidden;
+    z-index: 5;
+}
+
+.movie {
+    padding: 2px;
+}
+
+.movie img {
+    border-radius: 4px;
+}
+
+.movie:hover {
+    transform: scale(1.15);
+    transition: 1s;
+    transition-delay: .5s;
+}
